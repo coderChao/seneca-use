@@ -1,0 +1,31 @@
+{
+  "name": "seneca-use",
+  "version": "1.0.0",
+  "description": "use seneca build microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coderChao/seneca-use.git"
+  },
+  "keywords": [
+    "seneca",
+    "seneca use"
+  ],
+  "author": "zhangchao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderChao/seneca-use/issues"
+  },
+  "homepage": "https://github.com/coderChao/seneca-use#readme",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-router": "^7.4.0",
+    "seneca": "^3.6.0",
+    "seneca-web": "^2.2.0",
+    "seneca-web-adapter-koa2": "^1.1.0"
+  }
+}
